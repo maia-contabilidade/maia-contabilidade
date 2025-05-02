@@ -2,27 +2,92 @@
 <html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="refresh" content="0; url=https://wa.me/5568992278402" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Redirecionando para o WhatsApp</title>
+    <title>Maia Contabilidade</title>
     <style>
       body {
+        margin: 0;
+        font-family: Arial, sans-serif;
         background-color: #f6f4ef;
         color: #004d25;
-        font-family: Arial, sans-serif;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        height: 100vh;
+      }
+      header {
+        background-color: #004d25;
+        color: white;
+        padding: 1rem;
         text-align: center;
+      }
+      section {
         padding: 2rem;
+        max-width: 900px;
+        margin: 0 auto;
+      }
+      h2 {
+        color: #004d25;
+        margin-bottom: 1rem;
+      }
+      .services {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 1rem;
+      }
+      .service {
+        background: white;
+        border-radius: 8px;
+        padding: 1rem;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        text-align: center;
+      }
+      footer {
+        text-align: center;
+        padding: 1rem;
+        background-color: #004d25;
+        color: white;
+      }
+      a.whatsapp-button {
+        display: inline-block;
+        margin-top: 1rem;
+        padding: 0.75rem 1.5rem;
+        background-color: #25D366;
+        color: white;
+        border-radius: 6px;
+        text-decoration: none;
+        font-weight: bold;
       }
     </style>
   </head>
   <body>
-    <div>
-      <h1>Redirecionando para o WhatsApp da Maia Contabilidade...</h1>
-      <p>Se não for redirecionado automaticamente, <a href="https://wa.me/5568992278402">clique aqui</a>.</p>
-    </div>
+    <header>
+      <h1>Maia Contabilidade</h1>
+      <p>Especializada em Saúde e Medicina</p>
+    </header>
+
+    <section>
+      <h2>Quem Somos</h2>
+      <p>
+        A Maia Contabilidade é uma empresa com 1 ano de experiência, focada em atender profissionais da área médica e da saúde. Oferecemos soluções contábeis completas, com atenção personalizada e agilidade.
+      </p>
+    </section>
+
+    <section>
+      <h2>Serviços</h2>
+      <div class="services">
+        <div class="service">Acompanhamento Contábil</div>
+        <div class="service">Abertura de Empresa</div>
+        <div class="service">Encerramento de Empresa</div>
+        <div class="service">Certificadora Digital</div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Contato</h2>
+      <p>Telefone: (68) 99227-8402</p>
+      <p>Email: barbosamaia2016@gmail.com</p>
+      <a href="https://wa.me/5568992278402" class="whatsapp-button" target="_blank">Fale conosco no WhatsApp</a>
+    </section>
+
+    <footer>
+      &copy; 2025 Maia Contabilidade. Todos os direitos reservados.
+    </footer>
   </body>
 </html>
